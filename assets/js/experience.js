@@ -5,25 +5,18 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Cyber security Project Engineer",
+    cardImage: "assets/images/experience-page/Wipro.jpg",
+    place: "Wipro Technologies",
+    time: "(Sep, 2020 - Mar, 2023)",
+    desp: "<li>Managed enterprise-wide EDR solution protecting 15,000+ endpoints across 60 countries.</li> <li> Optimizing detection rules that improved threat detection efficiency by 65% and reduced false positives by 47%, while maintaining SOC 2 Type II compliance</li> <li>Orchestrated enterprise-wide migration of PKI infrastructure from on-premises to AWS Cloud, designing high-availability architecture with HSM and KMS that Minimized outages by 92% while ensuring compliance with FDA CFR Part 11 requirements </li>",
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
-  },
-  {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Python Developer Intern",
+    cardImage: "assets/images/experience-page/SkyIt.png",
+    place: "SkyIt Solutions",
+    time: "(May - Aug, 2024)",
+    desp: "<li>Implemented security protocols in AWS infrastructure for management software, reducing vulnerability incidents by 40%</li><li>Developed scalable backend APIs using Django that integrated with MongoDB for fleet data processing, improving systemprocessing by 65% </li><li>The activityLog API listens for logs from other installed extensions.</li>",
   },
 ];
 
@@ -62,16 +55,16 @@ document.addEventListener("DOMContentLoaded", showCards2);
 const volunteership = document.querySelector(".volunteership");
 const volunteershipcards = [
   {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
+    title: "HackUTA 2024",
+    cardImage: "assets/images/experience-page/hackuta.jpg",
     description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
+      "Responsible for handling the projects and mentoring for students in HackUTA event.",
   },
   {
-    title: "StudentCode-in 2020",
+    title: "StudentCode-in 2021",
     cardImage: "assets/images/experience-page/2.jpg",
     description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
+      "Responsible for handling open source contributions of students and mentoring them.",
   },
   {
     title: "PClub Summer Of Code 2020",
@@ -83,7 +76,7 @@ const volunteershipcards = [
     title: "Hakin-Codes",
     cardImage: "assets/images/experience-page/4.jpg",
     description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
+      "Mentoring for the open source projects of HacktoberFest.",
   },
 ];
 
